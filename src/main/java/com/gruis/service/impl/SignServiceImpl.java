@@ -8,8 +8,8 @@ import org.springframework.stereotype.Service;
 public class SignServiceImpl implements SignService {
 
     @Override
-    public String signInvoice(Invoice invoice) {
+    public Invoice signInvoice(Invoice invoice) {
         // TODO: implement logic here.
-        return "OK";
+        return invoice;
     }
 }

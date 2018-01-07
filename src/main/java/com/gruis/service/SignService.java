@@ -6,7 +6,7 @@ public interface SignService {
     /**
      * Method to sign an invoice.
      * @param invoice the invoice to be signed.
-     * @return a string, with the signing result.
+     * @return an invoice, with the signing result.
      */
-    String signInvoice(Invoice invoice);
+    Invoice signInvoice(Invoice invoice);
 }
