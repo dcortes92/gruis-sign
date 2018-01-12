@@ -1,8 +1,8 @@
 package com.gruis.service.impl;
 
 import com.gruis.dto.Invoice;
+import com.gruis.library.Signer;
 import com.gruis.service.SignService;
-import com.mifactura.xadessigner.signer.Signer;
 import org.springframework.stereotype.Service;
 
 @Service
